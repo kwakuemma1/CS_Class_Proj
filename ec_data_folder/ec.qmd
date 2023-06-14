@@ -5,11 +5,14 @@ format: html
 ---
 
 ## 
-```{r}
 
+```{r}
+#| echo: false
+#|
+library(tidyverse)
+library(primer.data)
 ```
 
 ```{r}
 
 ```
-
