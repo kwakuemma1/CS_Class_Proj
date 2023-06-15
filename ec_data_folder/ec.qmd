@@ -9,10 +9,12 @@ format: html
 ```{r}
 #| echo: false
 #| message: false
+ false 
 library(tidyverse)
 library(primer.data)
 ```
 
 ```{r}
-
+social_capital_country <-
+  read_csv("data/socail_capital_country.csv")
 ```
