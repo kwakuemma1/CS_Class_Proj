@@ -2,19 +2,21 @@
 title: "Economic Connectedness"
 author: "Emmanuel Yeboah"
 format: html
+#| echo: false
 ---
 
-## 
 
 ```{r}
-#| echo: false
 #| message: false
- false 
 library(tidyverse)
-library(primer.data)
 ```
 
 ```{r}
-social_capital_country <-
-  read_csv("data/socail_capital_country.csv")
+x <- read_csv("data/social_capital_county.csv", show_col_types =  FALSE) |>
+  select(country_name, pop2018, ec_country) |>
+  mutate(state = str--replace(county_name, )) 
 ```
+
+```{r}
+summary(x) 
+``` 
